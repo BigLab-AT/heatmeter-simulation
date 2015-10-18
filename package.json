@@ -1,5 +1,5 @@
 {
-  "name": "Heatmeter Simulation",
+  "name": "heatmeter-simulation",
   "version": "0.0.1",
   "description": "A barebones Node.js app using Express 4 to simulate temperature data",
   "main": "index.js",
