@@ -8,8 +8,7 @@ function Sensor(min,max) {
 
 Sensor.prototype.getCurrentTemperature = function() {
 	var rise = Math.floor(Math.random() * 10) / 10;
-	console.log(this.step+ " " + this.temperature + " " + rise);
-
+	
 	if (this.step == 'up') {
 		this.temperature += rise;
 	}
